@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import UserInput from "./components/UserInput/UserInput";
+import {useState} from "react";
+import UserList from "./components/UserList/UserList";
 
 function App() {
-  return (
+    const [users, setUsers] = useState([]);
+
+    let content = (
+        <p style={{ textAlign: 'center' }}>No users found.</p>
+    );
+
+    if (users.length() > 0) {
+        content = (
+            <UserList />
+        );
+    }
+
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <section id="userForm">
+            <UserInput></UserInput>
+        </section>
+            {content}
+        <section>
+
+        </section>
     </div>
   );
 }
