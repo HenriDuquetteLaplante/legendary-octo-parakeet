@@ -1,32 +1,24 @@
 import './App.css';
-import UserInput from "./components/UserInput/UserInput";
 import {useState} from "react";
-import UserList from "./components/UserList/UserList";
+
+import AddUser from "./components/Users/AddUser";
+import UsersList from "./components/Users/UsersList";
 
 function App() {
-    const [users, setUsers] = useState([]);
+    const [usersList, setUsersList] = useState([]);
 
-    let content = (
-        <p style={{ textAlign: 'center' }}>No users found.</p>
-    );
-
-    if (users.length() > 0) {
-        content = (
-            <UserList />
-        );
+    const addUserHandler = (uName, uAge) => {
+        setUsersList((preUserList) => {
+            return [...preUserList, {name:uName, age:uAge, id:Date.now()}];
+        })
     }
 
     return (
-    <div className="App">
-        <section id="userForm">
-            <UserInput></UserInput>
-        </section>
-            {content}
-        <section>
-
-        </section>
-    </div>
-  );
+        <div>
+            <AddUser onAddUser={addUserHandler} />
+            <UsersList users={usersList} />
+        </div>
+    );
 }
 
 export default App;
