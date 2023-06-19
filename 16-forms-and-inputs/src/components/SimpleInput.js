@@ -32,7 +32,7 @@ const SimpleInput = (props) => {
             return;
         }
         resetNameInput();
-        resetEmailInput()
+        resetEmailInput();
     };
 
     const nameInputClasses = nameInputHasError ? 'form-control invalid' : 'form-control';
