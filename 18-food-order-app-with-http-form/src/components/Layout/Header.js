@@ -1,3 +1,5 @@
+import React  from 'react';
+
 import { Fragment } from 'react';
 
 import HeaderCartButton from './HeaderCartButton';
