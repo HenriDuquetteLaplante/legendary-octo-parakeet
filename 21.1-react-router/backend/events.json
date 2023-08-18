@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"ghrewahg","image":"https://www.google.com/logos/doodles/2023/2023-womens-world-cup-semi-finals-aug-15-16-6753651837110073-6752733080609871-cst.gif","date":"2023-08-02","description":"gwerggfwe","id":"41fd5c37-794a-4448-b0aa-51369ca5f80f"},{"title":"DOKODESU","image":"https://w7.pngwing.com/pngs/327/766/png-transparent-old-school-runescape-youtube-elf-random-icons-child-face-hand.png","date":"2023-08-03","description":"YES IT'SA MEEE","id":"e9f09c5d-a345-40d8-8b23-6fe6febcd164"},{"title":"KOKODESUKA!!!!","image":"https://i.seadn.io/gae/2hDpuTi-0AMKvoZJGd-yKWvK4tKdQr_kLIpB_qSeMau2TNGCNidAosMEvrEXFO9G6tmlFlPQplpwiqirgrIPWnCKMvElaYgI-HiVvXc?auto=format&dpr=1&w=1000","date":"2023-08-17","description":"is that shrek lol","id":"e295bbd6-fa4a-4856-8864-d77ad05a60c7"},{"title":"A dummy event!!!","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","date":"2023-02-22","description":"Join this amazing event and connect with fellow developers.","id":"e1"}]}
